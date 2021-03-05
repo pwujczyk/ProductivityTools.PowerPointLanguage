@@ -64,6 +64,7 @@
             this.slideButton.Label = "This slide";
             this.slideButton.Name = "slideButton";
             this.slideButton.ShowImage = true;
+            this.slideButton.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.slideButton_Click);
             // 
             // wholePresentation
             // 
@@ -71,6 +72,7 @@
             this.wholePresentation.Label = "All slides";
             this.wholePresentation.Name = "wholePresentation";
             this.wholePresentation.ShowImage = true;
+            this.wholePresentation.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.wholePresentation_Click);
             // 
             // ChangeLanguage
             // 
